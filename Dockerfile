@@ -2,7 +2,7 @@ FROM debian:unstable
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get upgrade -y
+RUN apt-get update
 RUN apt-get install -y && \
 	asciidoctor \
 	ruby-dev \
