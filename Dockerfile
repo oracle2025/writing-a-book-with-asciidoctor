@@ -12,5 +12,4 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y && \
 	spell \
 	default-jre \
 	wget \
-	unzip \
-	&& rm -rf /var/lib/apt/lists/*
+	unzip
