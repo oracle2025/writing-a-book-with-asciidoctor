@@ -4,8 +4,6 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y && \
-	apt-utils
-RUN apt-get install -y && \
 	asciidoctor \
 	ruby-dev \
 	pkgconf \
