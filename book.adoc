@@ -1,0 +1,12 @@
+= Example Book
+Author Name
+:doctype: book
+:encoding: utf-8
+:lang: en
+:hyphens:
+:icons: font
+
+[preface]
+== Preface
+
+== First Chapter
