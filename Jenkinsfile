@@ -10,7 +10,7 @@ pipeline {
 		}
 		stage('PDF') {
 			steps {
-				sh 'PATH=$PATH:$HOME/.local/share/gem/ruby/2.7.0/bin asciidoctor-pdf book.adoc'
+				sh 'asciidoctor-pdf book.adoc'
 			}
 		}
 	}
