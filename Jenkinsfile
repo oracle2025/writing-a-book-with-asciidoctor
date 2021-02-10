@@ -14,4 +14,9 @@ pipeline {
 			}
 		}
 	}
+	post {
+		always {
+			archiveArtifacts artifacts: '*.pdf'
+		}
+	}
 }
