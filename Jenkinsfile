@@ -13,6 +13,11 @@ pipeline {
 				sh 'asciidoctor-pdf book.adoc'
 			}
 		}
+		stage('EPUB3') {
+			steps {
+				sh 'asciidoctor-epub3 --version'
+			}
+		}
 	}
 	post {
 		always {
