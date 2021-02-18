@@ -15,13 +15,14 @@ pipeline {
 		}
 		stage('EPUB3') {
 			steps {
-				sh 'asciidoctor-epub3 --version'
+				sh 'asciidoctor-epub3 book.adoc'
 			}
 		}
 	}
 	post {
 		always {
 			archiveArtifacts artifacts: '*.pdf'
+			archiveArtifacts artifacts: '*.epub'
 		}
 	}
 }
