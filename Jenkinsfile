@@ -18,6 +18,11 @@ pipeline {
 				sh 'asciidoctor-epub3 book.adoc'
 			}
 		}
+		stage('EPUBCHECK') {
+			steps {
+				sh 'java -jar /tmp/epubcheck-4.2.4/epubcheck.jar book.epub'
+			}
+		}
 	}
 	post {
 		always {
