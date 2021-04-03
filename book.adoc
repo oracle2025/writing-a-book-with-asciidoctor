@@ -5,6 +5,8 @@ Author Name
 :lang: en
 :hyphens:
 :icons: font
+:pdf-themesdir: resources/themes
+:pdf-theme: basic-theme.yml
 
 [preface]
 == Preface
