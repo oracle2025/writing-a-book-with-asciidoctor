@@ -1,0 +1,26 @@
+:doctype: article
+:encoding: utf-8
+:lang: en
+:pdf-themesdir: resources/themes
+:pdf-theme: frontmatter-theme.yml
+:icons: font
+
+All Rights reserved.
+
+No part of this book may be reproduced or transmitted in any form or by any
+means without written permission.
+
+First edition
+
+(C) Author Name + 
+Published by the Author +
+City 2021
+
+Git hash: %GIT_SHA1%
+
+icon:twitter[] icon:github[] 
+
+ISBN: 
+
+
+
