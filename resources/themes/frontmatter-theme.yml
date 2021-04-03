@@ -1,0 +1,13 @@
+extends: default-for-print
+base:
+  font-color: #000000
+heading:
+  chapter:
+    break-before: always
+heading:
+  h3-margin-top: $heading-margin-top * 4.0
+footer:
+  border-width: 0
+  recto:
+    right:
+      content: ''

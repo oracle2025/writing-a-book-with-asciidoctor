@@ -1,0 +1,18 @@
+extends: default-for-print
+page:
+  margin: [2cm, 2cm, 2.5cm, 2cm]
+base:
+  font-color: #000000
+heading:
+  chapter:
+    break-before: always
+heading:
+  h3-margin-top: $heading-margin-top * 4.0
+footer:
+  height: 2cm
+  recto:
+    left:
+      content: '{section-title}'
+  verso:
+    center:
+      content: '{chapter-title}'
