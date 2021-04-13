@@ -9,7 +9,7 @@ There are three main features:
 * Using an epub-validator to validate the generated output
 * A [Jenkinsfile](Jenkinsfile) and [Dockerfile](Dockerfile) for a ready to use CI workflow
 
-These are tricks that I am using for my own Book Project:
+These are tricks that I am using for my own book project:
 
 [Leading a Legacy Software Team: How to turn a chaotic software project around and lead
 it from legacy to success](https://softwareteambook.tk/)
