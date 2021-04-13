@@ -11,7 +11,8 @@ There are three main features:
 
 These are tricks that I am using for my own Book Project:
 
-[Leading a Legacy Software Team](https://softwareteambook.tk/)
+[Leading a Legacy Software Team: How to turn a chaotic software project around and lead
+it from legacy to success](https://softwareteambook.tk/)
 
 
 (C) 2021 Richard Spindler
