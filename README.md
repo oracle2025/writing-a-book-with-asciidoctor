@@ -7,7 +7,7 @@ There are three main features:
 * Setting darker font colors for generating a PDF for printing
 * Enabling the text-hyphen plugin to get hyphenation
 * Using an epub-validator to validate the generated output
-* A Jenkinsfile and Dockerfile for a ready to use CI workflow
+* A [Jenkinsfile](Jenkinsfile) and Dockerfile(Dockerfile) for a ready to use CI workflow
 
 These are tricks that I am using for my own Book Project:
 
