@@ -20,4 +20,4 @@ jobs:
       - name: Install dependencies
         run: bundle install
       - name: Create book
-        run: bundle exec rake
+        run: bundle exec rake --trace
