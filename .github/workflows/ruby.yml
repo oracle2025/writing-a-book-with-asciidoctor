@@ -23,5 +23,5 @@ jobs:
         run: bundle exec rake --trace
       - uses: actions/upload-artifact@v2
 	with:
-	  name: book
-	  path: build
+          name: book
+          path: build
