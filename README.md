@@ -8,7 +8,7 @@ Theses are the main features:
 * Enabling the text-hyphen plugin to get hyphenation
 * Using an epub-validator to validate the generated output
 * A [Jenkinsfile](Jenkinsfile) and [Dockerfile](Dockerfile) for a ready to use CI workflow
-* A Github action for a ready to use CI workflow
+* A [Github action](.github/workflows/ruby.yml) for a ready to use CI workflow
 
 These are techniques that I am using for my own book project:
 
